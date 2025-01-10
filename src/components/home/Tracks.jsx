@@ -7,7 +7,7 @@ export default function Tracks() {
     return (
         <div className="tracks-container w-full max-w-[1920px] mx-auto px-[7%] py-10">
 
-            <TitleComponent text="Themes" />
+            <TitleComponent text="Tracks" />
 
 
             <div className="track">
