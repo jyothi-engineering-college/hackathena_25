@@ -66,7 +66,7 @@ export default function Hero() {
                     data-hackathon-slug="hackathena-2"
                     data-button-theme="dark-inverted"
                     style={{ height: '44px', width: '312px' }}
-                ></div> */}                git pull
+                ></div> */}          
                 
                 <button onClick={joinDiscord} className='rounded-md px-3 text-lg text-[#27333f] font-normal transition delay-150 ease-in-out hover:text-[#101010]' style={{ height: '44px', width: 'auto', backgroundColor: '#FFFFFF' }}>
                     <div className='flex items-center justify-center gap-2'><img src={register} alt="" /></div>
