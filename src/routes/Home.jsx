@@ -27,9 +27,9 @@ export default function Home() {
         <div>
             <Hero />
             <About />
-            <PartnerEvents />
+            {/* <PartnerEvents /> */}
             <Tracks />
-            <Announcement />
+            {/* <Announcement /> */}
             <Timeline />
             <Prizes />
             <TrackPrizes />

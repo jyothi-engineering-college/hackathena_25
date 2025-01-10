@@ -97,7 +97,8 @@ export default function Timeline() {
     <div className='timeline-container'>
       <TitleComponent text="Timeline" />
       <div className='timeline' ref={main}>
-        {timelineEvents.map(event => (
+        <img src='images/timelines.png'></img>
+        {/* {timelineEvents.map(event => (
           <div className={`timeline-item ${event.style}`} key={event.id}>
             <div className='item-content gap-[100px]'>
               <div className='content-block timeline-main-block'>
@@ -129,7 +130,7 @@ export default function Timeline() {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );
