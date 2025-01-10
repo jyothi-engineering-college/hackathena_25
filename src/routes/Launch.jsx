@@ -17,7 +17,7 @@ export default function Launch() {
             <StarField />
             <div className="z-5 hero-page relative h-[100svh] max-h-[1080px]">
                 <div className="absolute w-full flex items-end justify-between px-[8%] top-10 z-10">
-                    <img src="/images/logos/HackAthena.svg" alt="HackAthena" className="h-12" />
+                    <img src="/images/logos/hack_dark.png" alt="HackAthena" className="h-12" />
                     <img src="/images/logos/CESA.png" alt="CESA" className="h-8" />
                 </div>
 
@@ -26,7 +26,7 @@ export default function Launch() {
                     <div className="z-20 p-4">
                         <p className="nico-moji text-[2.2rem] sm:text-[3rem] md:text-[4rem] lg:text-[6rem] leading-[100%] text-center">
                             Hack<span className="text-accent">a</span>thena'
-                            <span className="text-accent">24</span>
+                            <span className="text-accent">25</span>
                         </p>
                     </div>
                 </div>
