@@ -21,7 +21,7 @@ const RewardCard = ({ imgLink, title, value, skewValue, className }) => {
             }
         >
             <div
-                className={`relative z-1 ${cardStyle} bg-[#101010] ${skewClass} rounded-md border-2 sm:border-4 border-[#838383] p-3 sm:p-7 lg:p-4 flex flex-col justify-center items-center hover:scale-[102%] transition-all duration-300 ${cardAfterStyle} after:hover:top-0 after:hover:left-0 after:transition-all after:duration-300`}
+                className={`relative z-1 ${cardStyle} bg-[#ffffff] ${skewClass} rounded-md border-2 sm:border-4 border-[#838383] p-3 sm:p-7 lg:p-4 flex flex-col justify-center items-center hover:scale-[102%] transition-all duration-300 ${cardAfterStyle} after:hover:top-0 after:hover:left-0 after:transition-all after:duration-300`}
                 style={{ transformStyle: 'preserve-3d' }}
             >
                 <div>
