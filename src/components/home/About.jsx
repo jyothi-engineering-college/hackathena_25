@@ -17,7 +17,7 @@ export default function About() {
                  TO HONE SKILLS, NETWORK, AND EXPLORE NEW TECHNOLOGIES,
                  WHETHER YOU'RE A SEASONED DEVELOPER OR A BEGINNER. JOIN US FOR AN UNFORGETTABLE JOURNEY TO COLLABORATE, INNOVATE, AND CREATE SOLUTIONS.
                 </p>
-                <img className="custom-gif" src="/videos/image.png" alt="Animated GIF" />
+                <img className="custom-gif" src="public/images/mahn.png" alt="Animated GIF" />
                 </div>
                 
                     <div className="flex flex-row w-3/4 box " style={{marginBottom:'20px'}}>
