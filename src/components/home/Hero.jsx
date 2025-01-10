@@ -1,6 +1,7 @@
 import { color } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
 import { FaDiscord } from "react-icons/fa"
+import register from '../../../src/images/register.svg'
 
 export default function Hero() {
     let [mask, setMask] = useState({ x: 50, y: 50 })
@@ -16,16 +17,7 @@ export default function Hero() {
         // return () => document.getElementsByClassName('hero-page')[0].removeEventListener('mousemove', handleMouseMove)
     }, [])
 
-    React.useEffect(() => {
-        const script = document.createElement('script');
-        script.src = 'https://apply.devfolio.co/v2/sdk.js';
-        script.async = true;
-        script.defer = true;
-        document.body.appendChild(script);
-        return () => {
-            document.body.removeChild(script);
-        }
-    }, []);
+    
 
     const joinDiscord = () => {
         const discordUrl = 'https://discord.gg/AzyZ5F9fPv';
@@ -68,15 +60,16 @@ export default function Hero() {
                 </div>
             </div>
             <div className="absolute flex flex-col gap-4 items-center justify-center w-full bottom-[20%] z-10 sm:flex-row sm:gap-3">
-                <div
+                {/* <div
                     className="apply-button"
                     class="apply-button"
                     data-hackathon-slug="hackathena-2"
                     data-button-theme="dark-inverted"
                     style={{ height: '44px', width: '312px' }}
-                ></div>
+                ></div> */}                git pull
+                
                 <button onClick={joinDiscord} className='rounded-md px-3 text-lg text-[#27333f] font-normal transition delay-150 ease-in-out hover:text-[#101010]' style={{ height: '44px', width: 'auto', backgroundColor: '#FFFFFF' }}>
-                    <div className='flex items-center justify-center gap-2'><FaDiscord className='text-3xl' /> Join Discord</div>
+                    <div className='flex items-center justify-center gap-2'><img src={register} alt="" /></div>
                 </button>
             </div>
         </div>
