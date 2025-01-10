@@ -60,10 +60,10 @@ export default function Hero() {
                 <div className="z-20 p-4">
                     <p className="nico-moji text-[2.2rem] sm:text-[3rem] md:text-[4rem] lg:text-[6rem] leading-[100%] text-center">
                         Hack<span className="text-accent">a</span>thena'
-                        <span className="text-accent">24</span>
+                        <span className="text-accent">25</span>
                     </p>
                     <p className="max-w-[80%] mx-auto mt-2 text-[14px] sm:text-[16px] md:text-[18px] lg:text-base uppercase text-center">
-                        Hack the difference.
+                    IT’s time to hack something new !
                     </p>
                 </div>
             </div>
