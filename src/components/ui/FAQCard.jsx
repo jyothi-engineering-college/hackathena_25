@@ -1,3 +1,4 @@
+// FAQCard.js
 import React, { useState } from 'react'
 import { SlArrowDown, SlArrowUp } from 'react-icons/sl'
 
@@ -20,7 +21,7 @@ export const FAQCard = ({ question, answer, level, className }) => {
         <div className={'min-w-[260px] ' + className} onClick={handleDropDown}>
             <div className="relative">
                 <div
-                    className={`w-full h-full z-1 absolute top-0 right-0 bg-[#101010] border-r-2 border-[#838383] rounded-xl transition-all duration-500 ease-in-out ${isOpen && level === 1 ? 'opacity-100' : 'opacity-0'
+                    className={`w-full h-full z-1 absolute top-0 right-0 bg-white border-r-2 border-[#d4d4d4] rounded-xl transition-all duration-500 ease-in-out ${isOpen && level === 1 ? 'opacity-100' : 'opacity-0'
                         }`}
                 ></div>
                 <div className="relative z-2">
@@ -43,8 +44,8 @@ export const FAQCard = ({ question, answer, level, className }) => {
                             } transition-[grid] duration-500`}
                     >
                         <div
-                            className={`text-[13px] sm:text-[14px] md:text-[16px] bg-[#101010] min-h-[0px] rounded-b-xl text-[#ffffff7e] ${isOpen
-                                    ? 'h-auto p-4 md:p-6 border-2 border-[#838383] border-t-0 '
+                            className={`text-[13px] sm:text-[14px] md:text-[16px] bg-white min-h-[0px] rounded-b-xl text-[#4b4b4b] ${isOpen
+                                    ? 'h-auto p-4 md:p-6 border-2 border-[#d4d4d4] border-t-0 '
                                     : 'h-0 p-0 border-0'
                                 }transition-all duration-500`}
                         >

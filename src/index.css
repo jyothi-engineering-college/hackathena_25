@@ -53,7 +53,7 @@ body {
     border: var(--border-w) solid #ba0403;
     border-image: linear-gradient(15deg, rgba(186, 4, 3, 1) 0%, rgba(16, 16, 16, 1) 90%);
     border-image-slice: 1;
-    background: #101010;
+    background: #ffffff;
 }
 
 .q-card-0,
@@ -83,7 +83,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background: #101010;
+    background: #ffffff;
     z-index: -1;
 }
 
