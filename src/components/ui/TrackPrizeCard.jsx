@@ -25,7 +25,7 @@ const TrackPrizeCard = ({ imgLink, imgAlt, description, value, className }) => {
                 <div className="nico-moji text-[25px] md:text-[25px] lg:text-[35px] text-[#BA0403]">
                     {value}
                 </div>
-                <div className="text-[12px] sm:text-[16px] text-justify text-white">
+                <div className="text-[12px] sm:text-[16px] text-justify text-[#ffffff]">
                     {description}
                 </div>
             </div>
