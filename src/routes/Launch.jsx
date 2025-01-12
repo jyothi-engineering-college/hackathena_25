@@ -31,7 +31,7 @@ export default function Launch() {
                     </div>
                 </div>
                 <div className="absolute flex flex-col gap-4 items-center justify-center w-full bottom-[20%] z-10 sm:flex-row sm:gap-3">
-                    <button onClick={launchWebsite} className='h-44px w-[200px] bg-[#ffffff] rounded-md p-2 text-lg text-[#27333f] font-normal transition delay-250 ease-in-out hover:scale-[105%] hover:text-[#ffffff] hover:-[#ba0403]  hover:bg-[#ba0403]'>
+                    <button onClick={launchWebsite} className='h-44px w-[200px] border bg-[#ffffff] rounded-md p-2 text-lg text-[#27333f] font-normal transition delay-250 ease-in-out hover:scale-[105%] hover:text-[#ffffff] hover:-[#ba0403]  hover:bg-[#ba0403]'>
                         <div className='flex font-medium items-center justify-center gap-2'><MdRocketLaunch />Get set go!</div>
                     </button>
                 </div>

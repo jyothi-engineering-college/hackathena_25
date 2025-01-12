@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="z-5 hero-page relative h-[100svh] max-h-[1080px] bg-hero-pattern bg-repeat">
             <div className="absolute w-full flex items-end justify-between px-[8%] top-10 z-10">
                 <img src="/images/logos/hack_dark.png" alt="HackAthena" className="h-12" />
-                <img src="/images/logos/CESA.png" alt="CESA" className="h-8" />
+                <img src="/images/logos/cesaa.png" alt="CESA" className="h-8" />
             </div>
             <div
                 style={{

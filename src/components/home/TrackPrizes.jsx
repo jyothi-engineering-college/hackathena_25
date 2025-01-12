@@ -47,15 +47,15 @@ function TrackPrizes() {
                     className="grow flex-1"
                     imgLink={'/images/logos/ETHIndia.png'}
                     imgAlt={'ETHIndia'}
-                    description={'Upto $100 for best hack built on Ethereum.'}
-                    value={'$100'}
+                    description={'For best project in each Track'}
+                    value={'Rs.10k'}
                 />
                 <TrackPrizeCard
                     className="grow flex-1"
-                    imgLink={'/images/logos/Polygon.png'}
-                    imgAlt={'Polygon'}
-                    description={'Upto $200 for the best hack built on Polygon. Eligibility to apply for internship/full-time roles and seed funding of upto 5,000 USD for winners!'}
-                    value={'$200'}
+                    imgLink={'/images/logos/ETHIndia.png'}
+                    imgAlt={'ETHIndia'}
+                    description={'For best project in each Track'}
+                    value={'Rs.10k'}
                 />
             </Slider>
         </div>
