@@ -7,8 +7,8 @@ export default function Sponsors() {
         <div className="flex justify-center w-full h-[2px]" style={{
             background: 'linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,0))'
         }}></div>
-        {/* <div className='nico-moji w-full flex mt-6 md:mt-10 mb-3 text-xl md:text-2xl justify-center text-center'>Officially Recognised By</div>
-        <SponsorCard logos={[{ imgLink: "/images/logos/MVD.png", webLink: "https://mvd.kerala.gov.in/", alt: "MVD" },]} className={'pb-6'} logoClass={'h-[75px] sm:h-[85px] md:h-[100px]'} /> */}
+            {/* <div className='nico-moji w-full flex mt-6 md:mt-10 mb-3 text-xl md:text-2xl justify-center text-center'>Officially Recognised By</div>
+            <SponsorCard logos={[{ imgLink: "/images/logos/MVD.png", webLink: "https://mvd.kerala.gov.in/", alt: "MVD" },]} className={'pb-6'} logoClass={'h-[75px] sm:h-[85px] md:h-[100px]'} /> */}
         <TitleComponent text="Sponsors" />
         {/* <SponsorCard title={"Platinum Tier"} logos={[]} className={'pb-6'} /> */}
         <SponsorCard title={"Gold Tier"} logos={[{ imgLink: "/images/logos/Devfolio.png", webLink: "https://devfolio.co/", alt: "Devfolio" }, { imgLink: "/images/logos/TheXtruder.png", webLink: "https://www.thextruder.com/", alt: "The Xtruder" },  {imgLink: "/images/logos/UIIC.png", webLink:"https://uiic.co.in/", alt: "UIIC" }]} className={'pb-6'} />

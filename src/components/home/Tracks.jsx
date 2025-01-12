@@ -9,7 +9,6 @@ export default function Tracks() {
 
             <TitleComponent text="Themes" />
 
-
             <div className="track">
                 <div className="track-number-container-0">
                     <div className="track-number">01</div>
@@ -43,7 +42,7 @@ export default function Tracks() {
                         </div>
                     </div>
                     <p className="track-description uppercase">
-                        Participants are tasked with identifying technological solutions to tackle the current challenges confronting the medical industry.
+                        Participants are tasked with identifying AI-driven solutions to tackle the current challenges confronting the medical industry.
                         Their collaboration is essential in crafting innovative products or systems that elevate the healthcare landscape.
                     </p>
                 </div>
@@ -55,9 +54,9 @@ export default function Tracks() {
                 <div className="track-number-container">
                     <div className="track-number">03</div>
                 </div>
-                <div className="track-content">
+                <div class="track-content">
                     <div className="track-title-container">
-                        <h2 className="track-title">road safety</h2>
+                        <h2 className="track-title">BlockChain</h2>
                         <div className="track-title-decoration">
                             <span className="track-title-decorative-line"></span>
                             <span className="track-title-decorative-poly"></span>
@@ -67,8 +66,7 @@ export default function Tracks() {
                         </div>
                     </div>
                     <p className="track-description uppercase">
-                        Participants joining this track must be committed to tackling the urgent challenge of road safety.
-                        Projects can aim to elevate the quality of road transportation, spread awareness and oversee rescue operations.
+                    Participants joining this track must be dedicated to addressing critical challenges using blockchain technology. Projects can focus on enhancing transparency, improving the quality of operations in various sectors, driving secure data management, and fostering decentralized coordination for impactful solutions.
                     </p>
                 </div>
             </div>
