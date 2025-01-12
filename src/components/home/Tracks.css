@@ -16,7 +16,7 @@
 .track-number-container-0,
 .track-number-container-0::after {
     --cut: 2.5em;
-    --border-w: .35em;
+    --border-w: 9px;
 }
 
 .track-number-container,
@@ -25,16 +25,22 @@
     height: 300px;
     min-width: 260px;
     max-width: 330px;
-    border-radius: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .track-number-container {
-    background-color: #101010;
-    border: solid var(--border-w) transparent;
-    background-image: linear-gradient(#101010, #101010), radial-gradient(circle at top left, #ba0403, #101010);
+    background-color: #ffffff;
+    border: solid 9px transparent;
+    border-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1),
+        rgba(186, 4, 3, 1)
+    )
+    1;
+    background-image: linear-gradient(#ffffff,white)
+        radial-gradient(circle at top left, #ba0403, #101010);
     background-origin: border-box;
     background-clip: padding-box, border-box;
 }
@@ -45,7 +51,11 @@
     isolation: isolate;
     z-index: 0;
     background: #ba0403;
-    background: linear-gradient(150deg, rgba(186, 4, 3, 1) 0%, rgba(16, 16, 16, 1) 90%);
+    background: linear-gradient(
+        150deg,
+        rgba(186, 4, 3, 1) 0%,
+        rgba(16, 16, 16, 1) 90%
+    );
 }
 
 .track-number-container-0::after {
@@ -53,12 +63,14 @@
     position: absolute;
     inset: 0;
     z-index: -1;
-    background-color: #101010;
-    clip-path: polygon(calc(var(--cut) + (var(--border-w) * 0.45)) var(--border-w),
-            calc(100% - var(--border-w)) var(--border-w),
-            calc(100% - var(--border-w)) calc(100% - var(--border-w)),
-            var(--border-w) calc(100% - var(--border-w)),
-            var(--border-w) calc(var(--cut) + (var(--border-w) * 0.45)));
+    background-color: #ffffff;
+    clip-path: polygon(
+        calc(var(--cut) + (var(--border-w) * 0.45)) var(--border-w),
+        calc(100% - var(--border-w)) var(--border-w),
+        calc(100% - var(--border-w)) calc(100% - var(--border-w)),
+        var(--border-w) calc(100% - var(--border-w)),
+        var(--border-w) calc(var(--cut) + (var(--border-w) * 0.45))
+    );
 }
 
 .track-number-container:nth-child(even) {
@@ -71,18 +83,25 @@
 }
 
 .track-number {
-    color: #FFFFFF;
+    color: rgba(16, 16, 16, 1);
     font-size: 100px;
     font-weight: 400;
     font-family: 'Nico Moji', sans-serif;
 }
 
 .track-content {
+    border: solid 3px ;
     flex-grow: 1;
     height: 300px;
     padding: 50px 30px;
-    background-color: #111;
+    background-color: #ffffff;
     border-radius: 7px;
+    border-image: linear-gradient(
+                to bottom,
+                rgba(186, 4, 3, 1),
+                rgba(0, 0, 0, 1)
+            )
+            1;
 }
 
 .track-title-container {
@@ -99,7 +118,7 @@
     font-weight: 400;
     text-transform: uppercase;
     font-family: 'Nico Moji', sans-serif;
-    color: #BA0403;
+    color: #ba0403;
 }
 
 .track-title-decoration {
@@ -113,7 +132,7 @@
     display: inline-block;
     height: 0.5px;
     vertical-align: middle;
-    background-color: #FFFFFF;
+    background-color: #ba0403;
     width: 80%;
     margin-left: 10px;
     margin-right: 10px;
@@ -122,19 +141,18 @@
 
 .track-title-decorative-poly {
     display: inline-block;
-    background-color: #BA0403;
+    background-color: #ba0403;
     width: 15px;
     height: 30px;
     margin-left: 5px;
     transform: skew(-20deg);
 }
 
-
 .track-description {
     font-size: 18px;
     line-height: 21.6px;
     margin-top: 20px;
-    color: #ffffff7e;
+    color: rgba(159, 158, 158, 1);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -146,13 +164,12 @@
         font-family: 'Arial', sans-serif;
     }
 
-
     .track {
         flex-direction: column;
     }
 
-
     .track-content {
+        border: solid 1px black;
         flex-grow: 1;
         padding: 50px 30px;
         background-color: #111;
@@ -160,7 +177,12 @@
         height: auto;
         width: auto;
         min-height: 0px;
-
+        border-image: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 1),
+                rgba(186, 4, 3, 1)
+            )
+            1;
     }
 
     .track-title-container {
@@ -174,7 +196,7 @@
         font-weight: 400;
         text-transform: uppercase;
         font-family: 'Nico Moji', sans-serif;
-        color: #BA0403;
+        color: #ba0403;
         margin-right: 10px;
     }
 
@@ -184,8 +206,6 @@
         margin-left: 5px;
     }
 
-
-
     .track-title-decorative-poly {
         width: 15px;
         height: 30px;
@@ -193,14 +213,11 @@
         transform: skew(-20deg);
     }
 
-
-
     .track-number-container,
     .track-number-container-0,
     .track-number-container-0::after {
         display: none;
     }
-
 
     .track-title {
         font-size: 24px;
@@ -216,7 +233,6 @@
 }
 
 @media (max-width: 1024px) {
-
     .track-number-container,
     .track-number-container-0 {
         width: 25%;

@@ -4,7 +4,7 @@ import TitleComponent from '../ui/Title'
 
 export default function FAQ() {
     return (
-        <div className="w-full max-w-[1920px] mx-auto px-[5%] py-10">
+        <div className="w-full max-w-[1920px] mx-auto px-[5%] py-10 bg-white">
             <TitleComponent text="FAQ" />
             <FAQCard
                 question={
