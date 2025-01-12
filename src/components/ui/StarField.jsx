@@ -5,9 +5,10 @@ import React, { useEffect } from "react";
 function StarField(props) {
   const {
     speedFactor = 0.05,
-    backgroundColor = "black",
-    starColor = [255, 255, 255],
-    starCount = 1000,
+    backgroundColor = "white",
+    starColor = [50, 50, 50],
+    starCount = 500,
+    particleSize = 1.5, // New particle size prop
   } = props;
 
   useEffect(() => {
@@ -52,26 +53,17 @@ function StarField(props) {
         };
 
         const putPixel = (x, y, brightness) => {
-          const rgb =
-            "rgba(" +
-            starColor[0] +
-            "," +
-            starColor[1] +
-            "," +
-            starColor[2] +
-            "," +
-            brightness +
-            ")";
+          const rgb = `rgba(${starColor[0]}, ${starColor[1]}, ${starColor[2]}, ${brightness})`;
           c.fillStyle = rgb;
-          c.fillRect(x, y, 1, 1);
+          c.beginPath();
+          c.arc(x, y, particleSize, 0, Math.PI * 2); // Draw a circle
+          c.fill();
         };
 
         const moveStars = (distance) => {
-          const count = stars.length;
-          for (var i = 0; i < count; i++) {
-            const s = stars[i];
+          for (let s of stars) {
             s.z -= distance;
-            while (s.z <= 1) {
+            if (s.z <= 1) {
               s.z += 1000;
             }
           }
@@ -88,22 +80,16 @@ function StarField(props) {
           prevTime = time;
 
           moveStars(elapsed * speedFactor);
-
           clear();
 
           const cx = w / 2;
           const cy = h / 2;
 
-          const count = stars.length;
-          for (var i = 0; i < count; i++) {
-            const star = stars[i];
-
+          for (let star of stars) {
             const x = cx + star.x / (star.z * 0.001);
             const y = cy + star.y / (star.z * 0.001);
 
-            if (x < 0 || x >= w || y < 0 || y >= h) {
-              continue;
-            }
+            if (x < 0 || x >= w || y < 0 || y >= h) continue;
 
             const d = star.z / 1000.0;
             const b = 1 - d * d;
@@ -116,8 +102,7 @@ function StarField(props) {
 
         requestAnimationFrame(init);
 
-        // add window resize listener:
-        window.addEventListener("resize", function () {
+        window.addEventListener("resize", () => {
           w = window.innerWidth;
           h = window.innerHeight;
           setCanvasExtents();
@@ -132,12 +117,12 @@ function StarField(props) {
     return () => {
       window.onresize = null;
     };
-  }, [starColor, backgroundColor, speedFactor, starCount]);
+  }, [backgroundColor, starColor, speedFactor, starCount, particleSize]);
 
   return (
-    React.createElement("canvas", {
-      id: "starfield",
-      style: {
+    <canvas
+      id="starfield"
+      style={{
         padding: 0,
         margin: 0,
         position: "fixed",
@@ -148,9 +133,9 @@ function StarField(props) {
         zIndex: 10,
         opacity: 1,
         pointerEvents: "none",
-        mixBlendMode: "screen",
-      }
-    })
+        backgroundColor: backgroundColor,
+      }}
+    />
   );
 }
 

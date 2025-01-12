@@ -11,6 +11,7 @@ import FAQ from '../components/home/FAQ'
 import Footer from '../components/home/Footer'
 import PartnerEvents from '../components/home/PartnerEvents'
 import Announcement from '../components/home/Announcement'
+import './home.css'
 
 export default function Home() {
     const [loading, setLoading] = useState(true);
@@ -20,7 +21,7 @@ export default function Home() {
     }, [])
 
     if(loading) return <div id="my-loader">
-        <img src="/images/load.gif" alt="loading" className="mx-auto my-20" />
+        <div className="loader"></div>
     </div>;
 
     return (

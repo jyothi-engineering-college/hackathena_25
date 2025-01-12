@@ -11,14 +11,14 @@ export default function Prizes() {
                     className="grow flex-1 max-md:order-2"
                     imgLink={'/images/icosahedron.svg'}
                     title={'Second Prize'}
-                    value={'20,000'}
+                    value={'25,000'}
                     skewValue={1}
                 /> 
                 <RewardCard
                     className="grow flex-1 max-md:order-1"
                     imgLink={'/images/dodecahedron.svg'}
                     title={'First Prize'}
-                    value={'30,000'}
+                    value={'35,000'}
                     skewValue={0}
                 />
                 <RewardCard
@@ -29,7 +29,7 @@ export default function Prizes() {
                     skewValue={-1}
                 />
             </div>
-            <p className='w-full flex justify-center items-center break-words sm:text-base md:text-lg text-justify pt-14'>*Each for best project in Health Tech & Road Safety themes.</p>
+            <p className='w-full flex justify-center items-center break-words sm:text-base md:text-lg text-justify pt-14'>*Each for best project in Ai in Health Tech , Blockchain & Cybersecurity.</p>
         </div>
     )
 }

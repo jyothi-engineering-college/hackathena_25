@@ -70,6 +70,26 @@ export default function Tracks() {
                     </p>
                 </div>
             </div>
+            <div className="track">
+                <div className="track-content">
+                    <div className="track-title-container">
+                        <h2 className="track-title">Cybersecurity</h2>
+                        <div className="track-title-decoration">
+                            <span className="track-title-decorative-line"></span>
+                            <span className="track-title-decorative-poly"></span>
+                            <span className="track-title-decorative-poly"></span>
+                            <span className="track-title-decorative-poly"></span>
+                            <span className="track-title-decorative-poly"></span>
+                        </div>
+                    </div>
+                    <p className="track-description uppercase">
+                    Participants are tasked with identifying solutions to address current challenges in cybersecurity. Their collaboration is essential in developing innovative strategies and systems that enhance security measures and protect digital assets from emerging threats.
+                    </p>
+                </div>
+                <div className="track-number-container">
+                    <div className="track-number">04</div>
+                </div>
+            </div>
         </div>
     )
 }
