@@ -33,8 +33,8 @@ export default function Home() {
             <Timeline />
             <Prizes />
             <TrackPrizes />
-            <Sponsors />
-            <Partners />
+            {/* <Sponsors /> */}
+            {/* <Partners /> */}
             <FAQ />
             <Footer />
         </div>
