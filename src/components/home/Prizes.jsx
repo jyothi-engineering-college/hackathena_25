@@ -24,7 +24,7 @@ export default function Prizes() {
                 <RewardCard
                     className="grow flex-1 max-md:order-3"
                     imgLink={'/images/cone.svg'}
-                    title={'Theme Prize*'}
+                    title={'Track Prize*'}
                     value={'10,000'}
                     skewValue={-1}
                 />
