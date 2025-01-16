@@ -20,7 +20,7 @@ export default function Hero() {
     
 
     const joinDiscord = () => {
-        const discordUrl = 'https://discord.gg/AzyZ5F9fPv';
+        const discordUrl = 'https://unstop.com/p/hackathena25-jyothi-engineering-college-1360979?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=oh-registration-deleted-for-hackathena25';
         const newTab = window.open(discordUrl, '_blank');
         if (newTab) {
             newTab.opener = null;
