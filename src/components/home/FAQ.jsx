@@ -38,7 +38,7 @@ export default function FAQ() {
                     'What are the hackathon prizes?'
                 }
                 answer={
-                    'The champions will receive Rs. 30,000, and runners-up will receive Rs. 20,000. An additional prize of Rs. 10,000 each will be awarded for the best project in health tech and road safety. Track prizes will be announced soon.'
+                    'The champions will receive Rs. 30,000, and runners-up will receive Rs. 20,000. An additional prize of Rs. 10,000 each will be awarded for the best project in Health Tech,Blockchain and Cyber Security. Track prizes will be announced soon.'
                 }
                 level={2}
                 className={'py-2'} />
