@@ -12,7 +12,7 @@ export default function About() {
                 </h2>
                 <div className="flex flex-col md:flex-row items-start">
                 <p className='text-[14px] sm:text-[16px] md:text-[18px] desc' style={{ color: 'gray', maxWidth: '800px', marginBottom:'0'}}>
-                WELCOME TO HACKATHENA'24, A 3-DAY NATIONAL-LEVEL FLAGSHIP HACKATHON ORGANIZED BY THE COMPUTER SCIENCE AND ENGINEERING DEPARTMENT AND COORDINATED
+                WELCOME TO HACKATHENA'25, A 3-DAY NATIONAL-LEVEL FLAGSHIP HACKATHON ORGANIZED BY THE COMPUTER SCIENCE AND ENGINEERING DEPARTMENT AND COORDINATED
                  BY THE COMPUTER ENGINEERING STUDENTS ASSOCIATION (CESA) OF JYOTHI ENGINEERING COLLEGE, CHERUTHURUTHY. THIS HACKATHON IS THE IDEAL OPPORTUNITY 
                  TO HONE SKILLS, NETWORK, AND EXPLORE NEW TECHNOLOGIES,
                  WHETHER YOU'RE A SEASONED DEVELOPER OR A BEGINNER. JOIN US FOR AN UNFORGETTABLE JOURNEY TO COLLABORATE, INNOVATE, AND CREATE SOLUTIONS.
@@ -24,7 +24,7 @@ export default function About() {
                         <div className="nico-moji w-1/2 bg-gray-400">
                                 <div className="flex flex-col w-full padding20">
                                     <div>
-                                        <span style={{fontSize: '3rem'}}>700+</span><br/>
+                                        <span style={{fontSize: '3rem'}}>100+</span><br/>
                                         <span className="text-accent">Registrations</span>
                                     </div>
                             </div>
@@ -32,7 +32,7 @@ export default function About() {
                         <div className="nico-moji w-full bg-gray-400">
                             <div className="flex flex-col w-full padding200">
                                 <div className="text-center">
-                                    <span style={{fontSize: '3rem'}}>6+</span><br/>
+                                    <span style={{fontSize: '3rem'}}>3+</span><br/>
                                     <span className="text-accent" >Partner Events</span>
                                 </div>
                             </div>
