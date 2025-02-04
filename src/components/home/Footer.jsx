@@ -10,10 +10,10 @@ function Footer() {
         <div className='contact'>
           <h3>Get in Touch:</h3>
           <ul>
-            <li>Email Support: <a href="mailto:helpdesk.hackathena@gmail.com">helpdesk.hackathena@gmail.com</a></li>
-            <li>Technical Assistance: <a href="mailto:assisstance.hackathena@gmail.com">assisstance.hackathena@gmail.com</a></li>
-            <li>Phone Support: <a href="tel:9995038572">+91 99950 38572</a></li>
-            <li>Phone Support: <a href="tel:8301887868">+91 83018 87868</a></li>
+            <li>Email Support: <a href="mailto:helpdesk.hackathena25@gmail.com">helpdesk.hackathena25@gmail.com</a></li>
+            {/* <li>Technical Assistance: <a href="mailto:assisstance.hackathena@gmail.com">assisstance.hackathena@gmail.com</a></li> */}
+            <li>Phone Support: <a href="tel:9188721804">+91 91887 21804</a></li>
+            <li>Phone Support: <a href="tel:9495072672">+91 94950 72672</a></li>
           </ul>
         </div>
 

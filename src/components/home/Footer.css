@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 0 20px;
     
   }
@@ -50,7 +50,7 @@
   }
   
   .Footer .contact ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
   

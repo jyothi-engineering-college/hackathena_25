@@ -8,7 +8,7 @@ export default function FAQ() {
             <TitleComponent text="FAQ" />
             <FAQCard
                 question={
-                    "Who can participate in Hackathena'24?"
+                    "Who can participate in Hackathena'25?"
                 }
                 answer={
                     'Participant should be a school or college student and not a working professional.'}
@@ -20,7 +20,7 @@ export default function FAQ() {
                     'Is participation exclusive to teams? If so, what is the maximum team size?'
                 }
                 answer={
-                    'Yes, a team can have a maximum of 3 to 4 members.'
+                    'Yes, a team can have a maximum of 2 to 4 members.'
                 }
                 level={2}
                 className={'py-1'}
@@ -38,16 +38,16 @@ export default function FAQ() {
                     'What are the hackathon prizes?'
                 }
                 answer={
-                    'The champions will receive Rs. 30,000, and runners-up will receive Rs. 20,000. An additional prize of Rs. 10,000 each will be awarded for the best project in health tech and road safety. Track prizes will be announced soon.'
+                    'The champions will receive Rs. 30,000, and runners-up will receive Rs. 20,000. An additional prize of Rs. 10,000 each will be awarded for the best project in Health Tech,Blockchain and Cyber Security. Track prizes will be announced soon.'
                 }
                 level={2}
                 className={'py-2'} />
             <FAQCard
                 question={
-                    'What happens in Phase One of Hackathena\'24?'
+                    'What happens in Phase One of Hackathena\'25?'
                 }
                 answer={
-                    'In Phase One, teams have to submit a pitch deck PPT in PDF format via Devfolio to provide an overview of their ideas; it\'s the criteria for selection to Phase Two.'
+                    'In Phase One, teams have to submit a pitch deck PPT in PDF format via Unstop to provide an overview of their ideas; it\'s the criteria for selection to Phase Two.'
                 }
                 level={2}
                 className={'py-2'} />
@@ -66,14 +66,14 @@ export default function FAQ() {
                     'What happens after being shortlisted?'
                 }
                 answer={
-                    'Shortlisted teams should RSVP through Devfolio within 2 days to confirm, upon failure waitlisted teams will be selected.'
+                    'Shortlisted teams should RSVP through Unstop within 2 days to confirm, upon failure waitlisted teams will be selected.'
                 }
                 level={2}
                 className={'py-2'}
             />
             <FAQCard
                 question={
-                    "What happens in Phase Two of Hackathena'24?"
+                    "What happens in Phase Two of Hackathena'25?"
                 }
                 answer={
                     'In Phase Two, selected participants have to develop solutions offline at the college within 48 hours. There will be mentor checkpoints during the hackathon which will be evaluated.'

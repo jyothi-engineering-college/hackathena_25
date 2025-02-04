@@ -11,14 +11,14 @@ export default function Prizes() {
                     className="grow flex-1 max-md:order-2"
                     imgLink={'/images/icosahedron.svg'}
                     title={'Second Prize'}
-                    value={'25,000'}
+                    value={'20,000'}
                     skewValue={1}
                 /> 
                 <RewardCard
                     className="grow flex-1 max-md:order-1"
                     imgLink={'/images/dodecahedron.svg'}
                     title={'First Prize'}
-                    value={'35,000'}
+                    value={'30,000'}
                     skewValue={0}
                 />
                 <RewardCard
