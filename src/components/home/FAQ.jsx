@@ -38,7 +38,7 @@ export default function FAQ() {
                     'What are the hackathon prizes?'
                 }
                 answer={
-                    'The champions will receive Rs. 30,000, and runners-up will receive Rs. 20,000. An additional prize of Rs. 10,000 each will be awarded for the best project in Health Tech,Blockchain and Cyber Security. Track prizes will be announced soon.'
+                    'The champions will receive Rs. 30,000, and runners-up will receive Rs. 20,000. An additional prize of Rs. 10,000 each will be awarded for the best project in Ai in health,Blockchain and Cyber Security. Track prizes will be announced soon.'
                 }
                 level={2}
                 className={'py-2'} />
@@ -47,7 +47,7 @@ export default function FAQ() {
                     'What happens in Phase One of Hackathena\'25?'
                 }
                 answer={
-                    'In Phase One, teams have to submit a pitch deck PPT in PDF format via Unstop to provide an overview of their ideas; it\'s the criteria for selection to Phase Two.'
+                    'In Phase One, teams have to submit a pitch deck PPT via Unstop to provide an overview of their ideas; it\'s the criteria for selection to Phase Two.'
                 }
                 level={2}
                 className={'py-2'} />
