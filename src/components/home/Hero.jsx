@@ -55,7 +55,7 @@ export default function Hero() {
                         <span className="text-accent">25</span>
                     </p>
                     <p className="max-w-[80%] mx-auto mt-2 text-[14px] sm:text-[16px] md:text-[18px] lg:text-base uppercase text-center">
-                    Where Innovation Meets Possibility!
+                    Hack the Difference!
                     </p>
                 </div>
             </div>

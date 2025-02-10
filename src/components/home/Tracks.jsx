@@ -32,7 +32,7 @@ export default function Tracks() {
             <div className="track">
                 <div className="track-content">
                     <div className="track-title-container">
-                        <h2 className="track-title">health tech</h2>
+                        <h2 className="track-title">ai in health</h2>
                         <div className="track-title-decoration">
                             <span className="track-title-decorative-line"></span>
                             <span className="track-title-decorative-poly"></span>
