@@ -24,7 +24,7 @@ export default function About() {
                         <div className="nico-moji w-1/2 bg-gray-400">
                                 <div className="flex flex-col w-full padding20">
                                     <div>
-                                        <span style={{fontSize: '3rem'}}>100+</span><br/>
+                                        <span style={{fontSize: '3rem'}}>1200+</span><br/>
                                         <span className="text-accent">Registrations</span>
                                     </div>
                             </div>
